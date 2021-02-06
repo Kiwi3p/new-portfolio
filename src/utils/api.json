@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "text": "So you've found my 'About Me' section... What do you really want to know?",
+        "options": [
+            {
+                "text": "What have I been up to?",
+                "nextText": 2
+            },
+            {
+                "text": "What did I used to do?",
+                "nextText": 3
+            },
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            },
+            {
+                "text": "What was I like in high school?",
+                "nextText": 4
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Most recently, I've been freelancing in the New York area, creating SVG animations and React websites for large pharmaceutical companies.",
+        "options": [
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            },
+            {
+                "text": "What's your favorite project?",
+                "nextText": 9
+            },
+            {
+                "text": "Where did you go to school?",
+                "nextText": 7
+            },
+            {
+                "text": "What did you use to do?",
+                "nextText": 3
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "I used to be a video shooter/editor. That also included building servers, scripting automation processes within the adobe cloud, and working within teams or leading interns. I've interviewed, shot, and edited artists such as Snoop Dogg, Florence and the Machine, and Dave Mathews. I've also made work for David Byrne that was featured at MoMA PS1.",
+        "options": [
+            {
+                "text": "See my old reel",
+                "setState": { "coffee": true},
+                "nextText": 11
+            },
+            {
+                "text": "What's your favorite project?",
+                "nextText": 9
+            },
+            {
+                "text": "What was your favorite celebrity to meet?",
+                "nextText": 8
+            },
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "I was a little odd, but not TOO odd. I was really into playing synthesizers and performing as if I were David Bowie or something. I fondly remmeber this time, although I wouldn't want to be that kid again.",
+        "options": [
+            {
+                "text": "What have I been up to?",
+                "nextText": 2
+            },
+            {
+                "text": "What did I used to do?",
+                "nextText": 3
+            },
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "I have two years of front end development under my belt already. At my previous job, I designed a JavaScript creative automation application that helped us globally scale adds for companies such as Google and Spotify. In December 2020 I completed a full stack web development bootcamp, adding to the two years of Java and JavaScript education I had in college. Most recently I worked for a large pharmaceutical company editing banner ads and Gatsby websites.",
+        "options": [
+            {
+                "text": "What have I been up to?",
+                "nextText": 2
+            },
+            {
+                "text": "What's your favorite project?",
+                "nextText": 6
+            },
+            {
+                "text": "What did I used to do?",
+                "nextText": 3
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "I was a little odd, but not TOO odd. I was really into playing synthesizers and performing as if I were David Bowie or something. I fondly remmeber this time, although I wouldn't want to be that kid again.",
+        "options": [
+            {
+                "text": "What have I been up to?",
+                "nextText": 2
+            },
+            {
+                "text": "What did I used to do?",
+                "nextText": 3
+            },
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "Most recently I completed IronHack Web Development Bootcamp in Lisbon Portugal. The Pasteis De Nata were wonderful. My background however is originally in creative technology, as I majored in Post Production/New Media at Emerson College in 2016. This included two years of programming courses in Java and JavaScript",
+        "options": [
+            {
+                "text": "What have I been up to?",
+                "nextText": 2
+            },
+            {
+                "text": "What did I used to do?",
+                "nextText": 3
+            },
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "Definitely Snoop Dogg. There's no question. He was easily the nicest person I've met in that setting, and super funny. Otherwise, I enjoyed talking to Cam'ron about making Bill O'Reiley mad, and meeting David Byrne was a personal feat for me.",
+        "options": [
+            {
+                "text": "What have I been up to?",
+                "nextText": 2
+            },
+            {
+                "text": "What did I used to do?",
+                "nextText": 3
+            },
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "At my last job, we were coding banner ads in orders of over 100 per quarter for Spotify. This seemed tedius, so on my own time I worked to see if there was a way to create a JavaScript application that can anticipate creative sizing and automate aspects such as copy, image, and color changes. As a result we were able to automate our process and scale to larger development. By the time we left, our quarterly ask for banner ads was in the 1000s and not only featured global ads for Spotify, but we added Google to our client roster as well.",
+        "options": [
+            {
+                "text": "What have I been up to?",
+                "nextText": 2
+            },
+            {
+                "text": "What did I used to do?",
+                "nextText": 3
+            },
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "At my last job, we were coding banner ads in orders of over 100 per quarter for Spotify. This seemed tedius, so on my own time I worked to see if there was a way to create a JavaScript application that can anticipate creative sizing and automate aspects such as copy, image, and color changes. As a result we were able to automate our process and scale to larger development. By the time we left, our quarterly ask for banner ads was in the 1000s and not only featured global ads for Spotify, but we added Google to our client roster as well.",
+        "options": [
+            {
+                "text": "What have I been up to?",
+                "nextText": 2
+            },
+            {
+                "text": "What did I used to do?",
+                "nextText": 3
+            },
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "I used to be a video shooter/editor. That also included building servers, scripting automation processes within the adobe cloud, and working within teams or leading interns. I've interviewed, shot, and edited artists such as Snoop Dogg, Florence and the Machine, and Dave Mathews. I've also made work for David Byrne that was featured at MoMA PS1.",
+        "options": [
+            {
+                "text": "See my old reel",
+                "setState": { "coffee": true},
+                "nextText": 6
+            },
+            {
+                "text": "What's your favorite project?",
+                "nextText": 9
+            },
+            {
+                "text": "What was your favorite celebrity to meet?",
+                "nextText": 8
+            },
+            {
+                "text": "Tell me about your web development experience",
+                "nextText": 5
+            }
+        ]
+    }
+]

@@ -1,0 +1,89 @@
+/* .btn {
+   @apply py-1 px-1 text-white bg-yellow-500 rounded-full text-sm  
+}
+
+.btn-grid {
+    padding: 5%;
+    @apply grid grid-cols-2 gap-4
+} */
+
+#game-level {
+    margin-top: 40px;
+    width: 50%;
+}
+
+/* @font-face {
+    font-family: pixChicago;
+    src: url(../fonts/pixChicago.ttf);
+  }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: pixChicago;
+} */
+
+.container-game {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    padding: 40px;
+    border-radius: 0px;
+    box-shadow: 15px 15px 0px 0px rgb(0, 0, 0);
+}
+
+#text {
+    @apply lg:text-xl md:text-lg sm:text-base font-medium
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: rgba(252,211,76,1);
+    border-radius: 0px;
+    padding: 5px 10px;
+    color: black;
+    outline: none;
+    @apply lg:text-lg md:text-base sm:text-sm font-medium
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.image-switch {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #00CE23;
+}
+
+.image-switch img {
+    border: 2px  solid #008d18;
+    width: 60%;
+}
+
+@media only screen and (max-width: 812px) {
+    .btn-grid {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .container-game {
+        width: 600px;
+        max-width: 80%;
+        background-color: white;
+        padding: 40px;
+        border-radius: 0px;
+        box-shadow: 15px 15px 0px 0px rgb(0, 0, 0);
+    }
+  }
