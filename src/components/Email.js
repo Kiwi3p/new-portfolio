@@ -30,7 +30,7 @@ const Email = () => {
 
   return (
     <div class="max-w-2xl bg-white py-10 px-5 m-auto w-full mt-10">
-      <div class="text-3xl mb-6 text-center ">Ready to build your website?</div>
+      <div class="text-3xl mb-6 text-center ">Send me an email!</div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div class="grid grid-cols-2 gap-4 max-w-xl m-auto">
           <div class="col-span-2 lg:col-span-1">

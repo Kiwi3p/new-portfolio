@@ -77,7 +77,7 @@ function App() {
             }}
           />
           <Route
-            path="/about/linkedin"
+            path="/linkedin"
             component={() => {
               window.location.href =
                 "https://www.linkedin.com/in/jack-transue/";
@@ -85,7 +85,7 @@ function App() {
             }}
           />
           <Route
-            path="/about/github"
+            path="/github"
             component={() => {
               window.location.href = "https://github.com/Kiwi3p";
               return null;

@@ -11,7 +11,7 @@ function ContentContainer() {
   return (
     <div className="cards">
       {/* <div className="orange-slice bg-yellow-500"></div> */}
-      <h1 className="bg-yellow-500 shadow-cool up py-4 px-10 text-white full lg:text-3xl md:text-2xl sm:text-xl">Selected Projects</h1>
+      <h1 data-aos="fade-up" className="bg-yellow-500 shadow-cool up py-4 px-10 text-white full lg:text-3xl md:text-2xl sm:text-xl">Selected Projects</h1>
       <div className="cards_container">
         <div className="cards__wrapper">
           <ul className="cards__items" data-aos="fade-up">
