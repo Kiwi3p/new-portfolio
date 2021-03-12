@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ImageLogo from "../images/LOGO-HI-RES.jpg";
 
 const Navbar = ({ toggle }) => {
   return (
@@ -7,7 +8,8 @@ const Navbar = ({ toggle }) => {
       className="flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono"
       role="navigation"
     >
-      <Link to="/" className="pl-8">
+      <Link to="/" className="pl-8 flex flex-row items-center">
+        <img className="w-12 p-2" src={ImageLogo} alt="logo" />
         Jack Transue
       </Link>
       <div className="px-4-cursor-pointer md:hidden" onClick={toggle}>
@@ -27,11 +29,14 @@ const Navbar = ({ toggle }) => {
         </svg>
       </div>
       <div className="pr-8 md:block hidden">
-        <Link className="p-4" to="/">
-          Home
-        </Link>
         <Link className="p-4" to="/about">
           About
+        </Link>
+        <Link className="p-4" to="/about">
+          Work
+        </Link>
+        <Link className="p-4" to="/about">
+          Creative Portfolio
         </Link>
         <Link className="p-4" to="/contact">
           Contact
