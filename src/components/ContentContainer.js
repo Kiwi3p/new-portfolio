@@ -20,14 +20,14 @@ function ContentContainer() {
               src={ImageOne}
               text="CoHab - Your Home Task Manager"
               label="full-stack"
-              path="/cohab"
+              path="/work/cohab"
             />
             <Content
               className="shadow-cool"    
               src={ImageTwo}
               text="Google Maps farmers market agregator for Portugal"
               label="full-stack"
-              path="/local-e"
+              path="/work/localE"
             />
           </ul>
           <ul className="cards__items" data-aos="fade-up">
@@ -36,7 +36,7 @@ function ContentContainer() {
               src={ImageThree}
               text="Office Space: The Game - Vanilla Javascript choose your own adventure game"
               label="gaming"
-              path="/office-space"
+              path="/work/office-space"
             />
             <Content
               className="shadow-cool"  

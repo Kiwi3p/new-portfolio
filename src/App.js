@@ -8,6 +8,10 @@ import About from "./pages/about";
 import Dropdown from "./components/Dropdown";
 import Contact from "./pages/contact";
 import { AnimatePresence } from "framer-motion";
+import Work from "./pages/work";
+import Cohab from "./pages/work/Cohab";
+import LocalE from "./pages/work/LocalE";
+import OfficeSpace from "./pages/work/OfficeSpace";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,6 +42,10 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/contact" exact component={Contact} />
+          <Route path="/work" exact component={Work} />
+          <Route path="/work/cohab" exact component={Cohab} />
+          <Route path="/work/locale" exact component={LocalE} />
+          <Route path="/work/office-space" exact component={OfficeSpace} />
           <Route path="/about" exact component={About} />
           <Route
             path="/cohab"
